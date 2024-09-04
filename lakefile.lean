@@ -8,6 +8,7 @@ package «FastMemset» where
 module_data alloy.c.o.export : BuildJob FilePath
 module_data alloy.c.o.noexport : BuildJob FilePath
 
+@[default_target]
 lean_lib «FastMemset» where
   precompileModules := true
   nativeFacets := fun shouldExport =>
@@ -15,8 +16,3 @@ lean_lib «FastMemset» where
       #[Module.oExportFacet, `alloy.c.o.export]
     else
       #[Module.oNoExportFacet, `alloy.c.o.noexport]
-
-@[default_target]  
-lean_exe WW where
-  supportInterpreter := true
-  root := `Main
