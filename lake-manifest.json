@@ -1,10 +1,10 @@
 {"version": "1.0.0",
  "packagesDir": ".lake/packages",
  "packages":
- [{"url": "https://github.com/Ferinko/lean4-alloy.git",
+ [{"url": "https://github.com/tydeu/lean4-alloy",
    "type": "git",
    "subDir": null,
-   "rev": "68af103c5deb4f743ac753fc669993f1a5e5ca02",
+   "rev": "a712058ff5ca47f670f6d25ea2b2a7385d9523ae",
    "name": "alloy",
    "manifestFile": "lake-manifest.json",
    "inputRev": null,

@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-require alloy from git "https://github.com/Ferinko/lean4-alloy.git"
+require alloy from git "https://github.com/tydeu/lean4-alloy"
 
 package «FastMemset» where
 
